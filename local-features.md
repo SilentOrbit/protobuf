@@ -21,7 +21,7 @@ Message options:
 
  * access - set the acces of the generated class to internal rather than public.
  * triggers - (flag)have the class methods BeforeSerialize and AfterDeserialize called accordingly.
- * preserveunknown - (flag)keep all unknown fields during deserialization to be written back when serializing the class.
+ * preserverunknown - (flag)keep all unknown fields during deserialization to be written back when serializing the class.
  * external - (flag)generate serialization code for a class we don't have control over, such as one from a third party DLL.
  * type - default: class, but you can make the serializer work with struct or interfaces.
 
@@ -39,7 +39,7 @@ This example includes all the local features at once as they would be added to a
 	//Documentation of the Test class
 	//:access=private //public(default) or internal
 	//:triggers
-	//:preserveunknown
+	//:preserverunknown
 	//:external
 	//:type=struct //class(default), struct or interface
 	message Test {

@@ -1,3 +1,8 @@
+# Generation
+exclude:
+  - "*.xcf"
+gems: [jekyll-paginate]
+
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge

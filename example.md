@@ -3,7 +3,6 @@ layout: page
 title: Examples
 menu_order: 5
 menu:
-  title: Examples
 ---
 
 
